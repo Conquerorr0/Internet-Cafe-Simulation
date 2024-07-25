@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#tableClick" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManagerControlController">
+   <children>
+      <Separator layoutX="184.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="0.0" />
+      <Label layoutX="210.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa1">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa2">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa3">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="512.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa4">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa5">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="717.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa6">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="811.0" layoutY="152.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa7">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa8">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="51.0" text="Masa9">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa10">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="502.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa11">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="606.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa12">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="703.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa13">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="807.0" layoutY="266.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa14">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa15">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa16">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa17">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="502.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa18">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="606.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa19">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="703.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa20">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="807.0" layoutY="383.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa21">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa22">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="308.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa23">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="397.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa24">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa25">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="606.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa26">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="710.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa27">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="799.0" layoutY="492.0" onMousePressed="#tableClick" prefHeight="20.0" prefWidth="58.0" text="Masa28">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="table28" fitHeight="72.0" fitWidth="72.0" layoutX="800.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table27" fitHeight="72.0" fitWidth="72.0" layoutX="689.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table26" fitHeight="72.0" fitWidth="72.0" layoutX="592.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table25" fitHeight="72.0" fitWidth="72.0" layoutX="494.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table24" fitHeight="72.0" fitWidth="72.0" layoutX="398.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table23" fitHeight="72.0" fitWidth="72.0" layoutX="294.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table22" fitHeight="72.0" fitWidth="72.0" layoutX="201.0" layoutY="420.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table21" fitHeight="72.0" fitWidth="72.0" layoutX="800.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table20" fitHeight="72.0" fitWidth="72.0" layoutX="689.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table19" fitHeight="72.0" fitWidth="72.0" layoutX="592.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table18" fitHeight="72.0" fitWidth="72.0" layoutX="495.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table17" fitHeight="72.0" fitWidth="72.0" layoutX="401.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table16" fitHeight="72.0" fitWidth="72.0" layoutX="294.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table15" fitHeight="72.0" fitWidth="72.0" layoutX="201.0" layoutY="311.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table14" fitHeight="72.0" fitWidth="72.0" layoutX="800.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table13" fitHeight="72.0" fitWidth="72.0" layoutX="689.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table12" fitHeight="72.0" fitWidth="72.0" layoutX="592.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table11" fitHeight="72.0" fitWidth="72.0" layoutX="494.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table10" fitHeight="72.0" fitWidth="72.0" layoutX="401.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table9" fitHeight="72.0" fitWidth="72.0" layoutX="294.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table8" fitHeight="72.0" fitWidth="72.0" layoutX="201.0" layoutY="194.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table7" fitHeight="72.0" fitWidth="72.0" layoutX="801.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table6" fitHeight="72.0" fitWidth="72.0" layoutX="696.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table5" fitHeight="72.0" fitWidth="72.0" layoutX="599.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table4" fitHeight="72.0" fitWidth="72.0" layoutX="495.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table3" fitHeight="72.0" fitWidth="72.0" layoutX="401.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table2" fitHeight="72.0" fitWidth="72.0" layoutX="294.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="table1" fitHeight="72.0" fitWidth="85.0" layoutX="200.0" layoutY="80.0" onMousePressed="#tableClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/green-computer.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rectChoosenTable" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="14.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Label fx:id="choosenTable" alignment="CENTER" layoutX="14.0" layoutY="31.0" prefHeight="10.0" prefWidth="160.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblHourTime" alignment="CENTER_RIGHT" layoutX="16.0" layoutY="80.0" prefHeight="18.0" prefWidth="72.0" text="Saatlik Ücret:" />
+      <Label fx:id="lblStartTime" alignment="CENTER_RIGHT" layoutX="16.0" layoutY="110.0" prefHeight="18.0" prefWidth="72.0" text="Açılış Saati:" />
+      <Label fx:id="lblRemainingTime" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="141.0" prefHeight="18.0" prefWidth="72.0" text="Kalan Süre:" />
+      <Label fx:id="lblHourTime1" alignment="CENTER" layoutX="94.0" layoutY="81.0" prefHeight="18.0" prefWidth="72.0" text="20 TL" />
+      <Label fx:id="lblStartTime1" alignment="CENTER" layoutX="94.0" layoutY="111.0" prefHeight="18.0" prefWidth="72.0" />
+      <Label fx:id="lblRemainingTime1" alignment="CENTER" layoutX="94.0" layoutY="142.0" prefHeight="18.0" prefWidth="72.0" />
+      <Separator layoutX="2.0" layoutY="172.0" prefHeight="10.0" prefWidth="184.0" />
+      <Label fx:id="lblTotalPrice" layoutX="15.0" layoutY="311.0" text="Toplam Ücret:" />
+      <Label fx:id="lblTotalPrice1" alignment="CENTER" layoutX="101.0" layoutY="311.0" prefHeight="18.0" prefWidth="72.0" />
+      <Label fx:id="lblOrders" layoutX="16.0" layoutY="203.0" text="Siparişler:" />
+      <Label fx:id="lblOrders1" alignment="CENTER" layoutX="80.0" layoutY="203.0" prefHeight="18.0" prefWidth="94.0" />
+      <Label fx:id="lblGeneralUsage" layoutX="15.0" layoutY="239.0" prefHeight="18.0" prefWidth="82.0" text="Genel Kullanım:" />
+      <Label fx:id="lblGeneralUsage1" alignment="CENTER" layoutX="113.0" layoutY="240.0" prefHeight="18.0" prefWidth="58.0" />
+      <Separator layoutX="2.0" layoutY="275.0" prefHeight="10.0" prefWidth="184.0" />
+      <Separator layoutX="2.0" layoutY="348.0" prefHeight="10.0" prefWidth="184.0" />
+      <ImageView fx:id="wifi_Image" fitHeight="237.0" fitWidth="178.0" layoutX="4.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/wifi-image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
